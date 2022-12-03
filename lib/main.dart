@@ -981,10 +981,10 @@ class _HomePageState extends State<HomePage> {
                               onView: (_) {},
                               provider: provider,
                               onRetract: (id) {
-                                proVerify(id, '0');
+                                proVerify(id, 'false');
                               },
                               onAccept: (id) {
-                                proVerify(id, '1');
+                                proVerify(id, 'true');
                               },
                             )
                           ],

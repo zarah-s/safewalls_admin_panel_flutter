@@ -120,7 +120,7 @@ class ProVerification extends StatelessWidget {
             bool isVerified = provider.apiData.pros
                 .where(
                   (element) =>
-                      element['certified'] == '1' &&
+                      element['certified'] == 'true' &&
                       element['id'].toString() == id.toString(),
                 )
                 .isNotEmpty;
